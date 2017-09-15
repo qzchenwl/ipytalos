@@ -19,3 +19,4 @@ For a development installation (requires npm),
     $ pip install -e .
     $ jupyter nbextension install --py --symlink --sys-prefix ipytalos
     $ jupyter nbextension enable --py --sys-prefix ipytalos
+    $ jupyter labextension install ./jslab
