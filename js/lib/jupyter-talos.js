@@ -106,7 +106,7 @@ var TalosView = widgets.DOMWidgetView.extend({
   _info_changed: function() {
     var el = this.$el.find('.engine-log')[0];
     var engineLog = this.model.get('info')['engine_log'];
-    if (!/^\s+$/.test(engineLog)) {
+    if (!/^\s*$/.test(engineLog)) {
       el.innerText = engineLog;
     }
     el.scrollTop = el.scrollHeight;
