@@ -151,7 +151,7 @@ setup_args = {
 
     'author': 'qzchenwl',
     'author_email': 'qzchenwl@gmail.com',
-    'url': 'https://github.com//ipytalos',
+    'url': 'https://github.com/qzchenwl/ipytalos',
     'keywords': [
         'ipython',
         'jupyter',
