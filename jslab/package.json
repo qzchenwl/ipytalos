@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-talos",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "jupyter-talos lab bridge",
   "author": "qzchenwl",
   "main": "index.js",
