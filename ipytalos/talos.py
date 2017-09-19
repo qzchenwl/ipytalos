@@ -10,7 +10,7 @@ class Talos(widgets.DOMWidget):
     """An talos widget"""
     _view_name = Unicode('TalosView').tag(sync=True)
     _view_module = Unicode('jupyter-talos').tag(sync=True)
-    _view_module_version = Unicode('^0.1.0').tag(sync=True)
+    _view_module_version = Unicode('^0.1.2').tag(sync=True)
 
     finished = Bool(False).tag(sync=True)
     auto_update = Bool(True).tag(sync=True)
