@@ -7,6 +7,9 @@ var TalosView = widgets.DOMWidgetView.extend({
     var html = `
                 <div class='TalosView'>
                     <style>
+                        .TalosView, .TalosView * {
+                            box-sizing: border-box;
+                        }
                         .TalosView .display {
                             overflow: auto;
                         }
