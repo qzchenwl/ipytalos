@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@jupyter-widgets/jupyterlab-manager": "^0.27.0",
-    "jupyter-talos": "^0.1.1"
+    "jupyter-talos": "^0.1.2"
   },
   "jupyterlab": {
     "extension": true
